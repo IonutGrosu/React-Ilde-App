@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  min-height: 100vh;
+  background-color: azure;
+
+ 
+}
+
+.activitiesRow {
+  background-color: blanchedalmond;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.activityDiv {
+  background-color: aquamarine;
+  height: 300px;
+  width: 600px;
+  border-radius: 30px;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+
+.activityDashboard {
+  width: 75%;
+  height: 100%;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.progressBar {
+  background-color: chartreuse;
+  margin-top: 3%;
+  height: 10%;
+  margin-bottom: 2%;
+  width: 100%;
+  
+  text-align: center;
+}
+
+.activityButtonBar {
+  background-color: chocolate;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  height: 25px;
+  width: 20%;
+}
+
+.activityLogoDiv {
+  background-color: cadetblue;
+  height: 100%;
+  width: 25%;
+  border-radius: 30px 0px 0px 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
